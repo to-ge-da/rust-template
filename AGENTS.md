@@ -1,27 +1,5 @@
 # AGENTS.md
 
-Guidance for cloud and coding agents working in repositories created from this template.
+`to-ge-da` org Rust template/scaffold — tooling and GitHub defaults, no application crate yet.
 
-## Purpose
-
-This repo is the **to-ge-da** org Rust template / scaffold: shared tooling and GitHub defaults for new Rust projects. It does **not** ship an application crate yet (`src/`, `Cargo.toml`, and `scripts/` are added when a real project starts).
-
-## Conventions
-
-- **Commits:** Prefer Conventional Commits (e.g. `chore:`, `feat:`, `fix:`).
-- **PRs:** Prefer **ready for review** (not draft).
-- **Scope:** Do not invent product scope. Stay within the template/scaffold unless the issue or PR asks otherwise.
-
-## Pull requests
-
-When filling the PR template:
-
-1. **Summary** — what changed and why (tie to an issue when applicable).
-2. **Checklist** — mark ready-for-review; note CI green or any justified soft-skip (e.g. no `Cargo.toml` yet).
-3. **Closing** — use `Closes #<n>` when the PR completes an issue.
-
-## Local tooling
-
-- Install tools with `mise install`.
-- Use `just --list` for common tasks. Cargo recipes soft-skip until `Cargo.toml` exists.
-- Prefer `just ci-scan` / workflow hygiene before relying on CI alone.
+Use `mise install`, `just --list`, and CI in `.github/workflows/ci.yml`. Prefer ready-for-review PRs. Do not invent product scope. Cargo recipes soft-skip until `Cargo.toml` exists.
