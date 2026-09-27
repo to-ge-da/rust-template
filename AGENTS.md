@@ -10,7 +10,7 @@ This repo is the **to-ge-da** org Rust template / scaffold: shared tooling and G
 
 - **Commits:** Conventional Commits (e.g. `chore:`, `feat:`, `fix:`). English only.
 - **PRs:** Prefer **ready for review** (not draft). English title and body. Docs and comments in English.
-- **Scope:** Do not invent product features, app crates, or Kai/product code. Stay within the template/scaffold unless the issue or PR asks otherwise.
+- **Scope:** Do not invent product scope. Stay within the template/scaffold unless the issue or PR asks otherwise.
 
 ## Pull requests
 

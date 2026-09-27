@@ -34,7 +34,6 @@ This scaffold ships org defaults (tooling, CI hygiene, GitHub templates) **witho
 ## Quick commands
 
 ```bash
-just say              # greeting
 just mise-tools       # list tools from this mise.toml
 just ci-scan          # zizmor + pinact verify on workflows
 just ci-pin           # pin Actions to SHAs with pinact

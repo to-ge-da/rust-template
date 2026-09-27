@@ -1,10 +1,6 @@
 # Alias
 alias t := mise-tools
 
-# Greeting message
-@say greeting="Keep good relations, mongst InI":
-    echo "{{greeting}}"
-
 # Run clippy linter
 @lint:
     if [ ! -f Cargo.toml ]; then echo "Cargo.toml is not present yet — skipping lint."; else cargo clippy; fi
