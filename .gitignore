@@ -1,0 +1,21 @@
+# Cargo / Rust
+/target/
+**/*.rs.bk
+*.pdb
+
+# Editor / OS
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Env / secrets
+.env
+.env.*
+!.env.example
+
+# Agent / local tooling
+.agents/
+.opencode/
