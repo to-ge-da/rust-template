@@ -21,6 +21,7 @@ This scaffold ships org defaults (tooling, CI hygiene, GitHub templates) **witho
 
 | Path | Purpose |
 |------|---------|
+| `AGENTS.md` | Conventions for cloud/coding agents using this template |
 | `justfile` | Task runner recipes (lint/fmt/build/test, CI scan/pin, mise helpers) |
 | `mise.toml` | Pinned Rust toolchain + tools (`zizmor`, `pinact`, `jq`) |
 | `rust-toolchain.toml` | Rust channel aligned with `mise.toml` |
